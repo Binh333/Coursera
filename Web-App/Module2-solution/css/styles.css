@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+h1{
+	margin-top: 30px;
+	text-align: center;
+	font-family: serif;
+}
+
+p{
+	clear: right;
+	padding: 10px;
+}
+
+.content{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	background-color: gray;
+	border: 2px solid black;
+	height: fit-content;
+	clear: left;
+}
+
+#title1,#title2,#title3{
+	text-align: center;
+	font-size: 18px;
+	font-style: all;
+	height: 30px;
+	width: 120px;
+	border: 1px solid black;
+	padding: 3px;
+	float: right;
+}
+
+#title1{
+	background-color: #D96262;
+}
+#title2{
+	background-color: #9E3333;
+	color: white;
+}
+#title3{
+	background-color: #B5B255
+}
+
+
+.row{
+	position: relative;
+	left: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+/***   DESTOP VIEW    ***/
+@media (min-width:  992px){
+	.largeview{
+		float: left;
+		width: 33%;
+	}
+
+}
+
+/***  TABLET VIEW  ***/
+
+@media (min-width:  768px)and (max-width:  991px){
+	.mediumview{
+		float: left;
+		width: 50%;
+	}
+}
